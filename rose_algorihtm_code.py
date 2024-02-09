@@ -13,7 +13,7 @@ def construct_graph(dataset="jazz"):
     node_mapping = {}
     sequential_number = 0
 
-    with open(f'{dataset}.csv', mode='r') as file:
+    with open(file_name, mode='r') as file:
         csvFile = csv.DictReader(file)
         for line in csvFile:
             source = int(line['Source']) - 1
