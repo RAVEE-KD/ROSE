@@ -156,9 +156,9 @@ def ROSE(G, observer_shares):
 
 
 if __name__ == "__main__":
-
+    file_name = 'input_file.csv'
     # Initial Configuration
-    G = construct_graph("wiki-vote_giant_edge_list")
+    G = construct_graph(file_name)
 
     number_of_nodes = len(G)
     number_of_source = 1
