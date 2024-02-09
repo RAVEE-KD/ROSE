@@ -15,21 +15,21 @@ The Python code (ROSE) requires the following packages to be imported
 8. from collections import deque
 
 This code requires an Input file (.csv format) as shown in the following format: 
-(It has two colums such as Source and Target)
+(It has two columns such as Source and Target)
 
 Source,Target
 
-(1,2)
+1,2
 
-(2,1)
+2,1
 
-(1,3)
+1,3
 
-(3,1)
+3,1
 
-(2,3)
+2,3
 
-(3,2)
+3,2
 
 The original source can be obtained from the simulation part (IC model).
 
